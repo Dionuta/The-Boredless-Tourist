@@ -7,7 +7,7 @@ def get_destination_index(des):
   return destination_index
   
 def get_traveler_location(traveler):
-  traveler_destination = test_traveler[1]
+  traveler_destination = traveler[1]
   traveler_destination_index = get_destination_index(traveler_destination)
   return traveler_destination_index
 
